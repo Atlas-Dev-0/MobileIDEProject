@@ -47,7 +47,7 @@ echo "node js installed"
 echo "configuring neovim..."
 check_command apt install stylua
 check_command apt install clang
-check_command apt ripgrep
+check_command apt install ripgrep
 cd ~
 cd ~/.config/
 # Remove existing nvim directory if it exists
