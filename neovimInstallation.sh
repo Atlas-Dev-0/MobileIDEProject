@@ -40,7 +40,7 @@ echo "Neovim is installed..."
 echo "Configuring Neovim..."
 cd ~
 cd ~/.config/
-check_command git clone --branch MobileIDEProject https://github.com/Atlas-Dev-0/NVDF.git nvim -y
+check_command git clone --branch MobileIDEProject https://github.com/Atlas-Dev-0/NVDF.git nvim 
 
 
 
