@@ -43,6 +43,10 @@ echo "Installing nodejs"
 check_command apt install nodejs -y
 echo "node js installed"
 
+#nodejs installation
+echo "Installing nodejs"
+check_command apt install nodejs -y
+echo "node js installed"
 #configuration of neovim
 echo "configuring neovim..."
 check_command apt install stylua
@@ -57,6 +61,20 @@ if [ -d "nvim" ]; then
 fi
 
 check_command git clone --branch MobileIDEProject https://github.com/atlas-dev-0/nvdf.git nvim 
+
+#install wget
+check_command apt install wget
+
+#install tmux
+check_command apt install tmux
+cd ~/.config/nvim/tmuxConfiguration/.tmux.conf ~/
+echo "added tmux configuration"
+
+#install zsh
+check_command apt install zsh
+
+#configure powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 #end
 echo "Neovim Configured...You may open it now using 'nvim' command"
