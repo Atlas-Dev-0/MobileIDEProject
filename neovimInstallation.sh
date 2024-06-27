@@ -44,12 +44,18 @@ check_command apt install nodejs -y
 echo "node js installed"
 
 #configuration of neovim
-echo "Configuring Neovim..."
+echo "configuring neovim..."
 cd ~
 cd ~/.config/
-check_command git clone --branch MobileIDEProject https://github.com/Atlas-Dev-0/NVDF.git nvim 
+# Remove existing nvim directory if it exists
+if [ -d "nvim" ]; then
+    echo "Removing existing nvim directory..."
+    rm -rf nvim
+fi
+
+check_command git clone --branch MobileIDEProject https://github.com/atlas-dev-0/nvdf.git nvim 
 
 #end
-echo "Neovim Configured...You may open it now"
+echo "Neovim Configured...You may open it now using 'nvim' command"
 
 
