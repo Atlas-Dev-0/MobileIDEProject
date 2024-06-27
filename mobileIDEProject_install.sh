@@ -67,7 +67,7 @@ check_command apt install wget
 
 #install tmux
 check_command apt install tmux
-cd ~/.config/nvim/tmuxConfiguration/.tmux.conf ~/
+check_command cp ~/.config/nvim/tmuxConfiguration/.tmux.conf ~/
 echo "added tmux configuration"
 
 #install zsh
