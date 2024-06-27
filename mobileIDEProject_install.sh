@@ -76,10 +76,12 @@ check_command apt install zsh -y
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
+#make zsh default
+check_command chsh -s zsh 
+
+
 #open tmux
 check_command tmux 
-#open zsh
-check_command zsh 
 
 #end
 echo "Neovim Configured...You may open it now using 'nvim' command"
