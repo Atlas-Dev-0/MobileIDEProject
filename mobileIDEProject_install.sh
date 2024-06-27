@@ -71,6 +71,7 @@ cd ~/.config/nvim/tmuxConfiguration/.tmux.conf ~/
 echo "added tmux configuration"
 
 #install zsh
+check_command rm -rf ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 check_command apt install zsh
 check_command git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
