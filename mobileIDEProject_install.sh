@@ -63,21 +63,21 @@ fi
 check_command git clone --branch MobileIDEProject https://github.com/atlas-dev-0/nvdf.git nvim 
 
 #install wget
-check_command apt install wget
+check_command apt install wget -y
 
 #install tmux
-check_command apt install tmux
+check_command apt install tmux -y
 check_command cp ~/.config/nvim/tmuxConfiguration/.tmux.conf ~/
 echo "added tmux configuration"
 
 #install zsh
 check_command rm -rf ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-check_command apt install zsh
+check_command apt install zsh -y
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 #open zsh
-check_command zsh
+check_command zsh 
 
 #end
 echo "Neovim Configured...You may open it now using 'nvim' command"
