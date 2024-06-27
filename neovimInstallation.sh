@@ -45,6 +45,8 @@ echo "node js installed"
 
 #configuration of neovim
 echo "configuring neovim..."
+apt install stylua
+apt install clang
 cd ~
 cd ~/.config/
 # Remove existing nvim directory if it exists
