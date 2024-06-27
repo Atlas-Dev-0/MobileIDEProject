@@ -8,8 +8,6 @@ echo "\_|  |_/\_| \_|\____/"
 echo ""
 echo "MobileIDEProject"
 echo ""
-echo ""
-echo "Installing APT package manager.."
  
 # Function to check the exit status of a command
 check_command() {
@@ -21,39 +19,37 @@ check_command() {
     fi
 }
 
-# Install the pkg package
+# Install the apt package
+echo "Installing APT package manager.."
 check_command pkg install apt -y
-
-# Update the package list
 check_command apt update -y
-
-# Upgrade all packages
 check_command apt upgrade -y
 
-echo "Apt installed and is updated "
-echo ""
+#install neovim
 echo "Installing Neovim..."
-echo ""
 check_command apt install neovim -y
-
 echo "Neovim is installed..."
-echo ""
-echo ""
+
+#installation of c compilers
 echo "Installing essential build tools (c compilers) "
 check_command apt install build-essential -y
-echo ""
-echo ""
+
+#python installation
 echo "Installing python3"
-echo ""
 check_command apt install python3 -y
-echo ""
-echo ""
-echo ""
+
+#nodejs installation
+echo "Installing nodejs"
+check_command apt install nodejs -y
+echo "node js installed"
+
+#configuration of neovim
 echo "Configuring Neovim..."
 cd ~
 cd ~/.config/
 check_command git clone --branch MobileIDEProject https://github.com/Atlas-Dev-0/NVDF.git nvim 
 
+#end
 echo "Neovim Configured...You may open it now"
 
 
