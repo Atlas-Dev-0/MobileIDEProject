@@ -72,9 +72,11 @@ echo "added tmux configuration"
 
 #install zsh
 check_command apt install zsh
+check_command git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
-#configure powerlevel10k
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+#open zsh
+check_command zsh
 
 #end
 echo "Neovim Configured...You may open it now using 'nvim' command"
