@@ -74,7 +74,14 @@ echo "added tmux configuration"
 check_command rm -rf ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 check_command apt install zsh
 check_command git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Replace or add ZSH_THEME setting in .zshrc
+if grep -q "^ZSH_THEME=" ~/.zshrc; then
+    sed "s/^ZSH_THEME=.*/ZSH_THEME=\"$ZSH_THEME\"/" ~/.zshrc > "$TMP_ZSHRC"
+else
+    echo "ZSH_THEME=\"$ZSH_THEME\"" >> "$TMP_ZSHRC"
+    cat ~/.zshrc >> "$TMP_ZSHRC"
+fi
 
 #open zsh
 check_command zsh
