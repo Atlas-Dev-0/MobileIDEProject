@@ -1,11 +1,11 @@
 # Mobile IDE Project 📱
 Turning Termux into a basic IDE for students that can't afford to buy laptops but still wants to code. 
 
-####Edit Codes
+#### Edit Codes
 ![edit codes!](editwithneovim.gif)
 
 
-####Run and Compile
+#### Run and Compile
 ![run and compile!](run_program.gif)
 
 
