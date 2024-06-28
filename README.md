@@ -2,8 +2,14 @@
 Turning Termux into a basic IDE for students that can't afford to buy laptops but still wants to code.
 
 <div style="display:flex; justify-content:center; align-items:center;">
-    <img src="editwithneovim.gif" alt="Edit Codes!" width="400" height="200"/>
-    <img src="run_program.gif" alt="Run Programs!" width="400" height="200"/>
+    <figure style="margin-right: 20px;">
+        <img src="editwithneovim.gif" alt="Edit Codes!" width="400" height="200"/>
+        <figcaption style="text-align:center; font-style: italic;">Edit Codes!</figcaption>
+    </figure>
+    <figure>
+        <img src="run_program.gif" alt="Run Programs!" width="400" height="200"/>
+        <figcaption style="text-align:center; font-style: italic;">Run Programs!</figcaption>
+    </figure>
 </div>
 
 ## Why use this setup?
