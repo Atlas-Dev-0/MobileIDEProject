@@ -6,7 +6,7 @@ Turning Termux into a basic IDE for students that can't afford to buy laptops bu
     <img src="run_program.gif" alt="Run Programs!" width="400" height="200"/>
 </div>
 
-## Why use Termux?
+## Why use this setup?
 Although very limited in terms of developing real applications, using our Android's Linux OS (ARM Architecture), we're able to do tasks like:
 
 - Write CLI based programs
