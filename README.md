@@ -6,7 +6,7 @@ Edit Codes!
 
 
 Run and Compile!
-![run and compile!](run_program.gif.gif)
+![run and compile!](run_program.gif)
 
 
 ## Why use this setup?
