@@ -1,15 +1,12 @@
 # Mobile IDE Project 📱
 Turning Termux into a basic IDE for students that can't afford to buy laptops but still wants to code.
 
-<div style="display:flex; justify-content:center; align-items:center;">
-    <figure style="margin-right: 20px;">
-        <img src="editwithneovim.gif" alt="Edit Codes!" width="400" height="200"/>
-        <figcaption style="text-align:center; font-style: italic;">Edit Codes!</figcaption>
-    </figure>
-    <figure>
-        <img src="run_program.gif" alt="Run Programs!" width="400" height="200"/>
-        <figcaption style="text-align:center; font-style: italic;">Run Programs!</figcaption>
-    </figure>
+<div style="display:flex; justify-content:center; align-items:center; flex-direction: column;">
+    ![Edit Codes!](editwithneovim.gif)
+    <p style="text-align: center; font-style: italic;">Edit Codes!</p>
+
+    ![Run Programs!](run_program.gif)
+    <p style="text-align: center; font-style: italic;">Run Programs!</p>
 </div>
 
 ## Why use this setup?
