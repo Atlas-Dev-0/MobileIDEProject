@@ -1,15 +1,14 @@
 # Mobile IDE Project 📱
-Turning Termux into a basic IDE for students that can't afford to buy laptops but still wants to code.
+Turning Termux into a basic IDE for students that can't afford to buy laptops but still wants to code. 
 
-<p align="center">
-    <img src="editwithneovim.gif" alt="Edit Codes!" /><br>
-    <em>Edit Codes!</em>
-</p>
+Edit Codes!
+[edit codes!](editwithneovim.gif)
 
-<p align="center">
-    <img src="run_program.gif" alt="Run Programs!" /><br>
-    <em>Run Programs!</em>
-</p>
+
+Run and Compile!
+[run and compile!](run_program.gif.gif)
+
+
 ## Why use this setup?
 Although very limited in terms of developing real applications, using our Android's Linux OS (ARM Architecture), we're able to do tasks like:
 
