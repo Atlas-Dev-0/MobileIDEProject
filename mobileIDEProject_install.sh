@@ -1,4 +1,3 @@
-
 echo "___  _________ _____" 
 echo "|  \/  || ___ \  __ \/"
 echo "| .  . || |_/ / |  \/"
@@ -43,15 +42,12 @@ echo "Installing nodejs"
 check_command apt install nodejs -y
 echo "node js installed"
 
-#nodejs installation
-echo "Installing nodejs"
-check_command apt install nodejs -y
-echo "node js installed"
 #configuration of neovim
 echo "configuring neovim..."
 check_command apt install stylua
 check_command apt install clang
 check_command apt install ripgrep
+
 cd ~
 cd ~/.config/
 # Remove existing nvim directory if it exists
@@ -78,7 +74,6 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 #make zsh default
 check_command chsh -s zsh 
-
 
 #open tmux
 check_command tmux 
