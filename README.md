@@ -1,11 +1,11 @@
 # Mobile IDE Project 📱
 Turning Termux into a basic IDE for students that can't afford to buy laptops but still wants to code. 
 
-# Table of Contents
 - [Why use this setup?](#why-use-this-setup)
 - [Tools that go along with this installation](#tools-that-go-along-with-this-installation)
 - [Installation](#installation)
 - [I don't know how to use Neovim!](#i-dont-know-how-to-use-neovim)
+
 
 #### Edit Codes
 ![edit codes!](editwithneovim.gif)
