@@ -64,5 +64,6 @@ $ ./mobileIDEProject_install.sh
 
 ## I don't know how to use Noevim!
 Relax, there are a lot of tutorials and documentations out there, not to mention that using the kickstarter by https://github.com/nvim-lua/kickstart.nvim , we are able to type ":Tutor" to interact with the built-in tutorials to get you started with neovim.
-<img src="tutor.gif" alt="tutor!"/>
+
+![tutor!](tutor.gif)
 
