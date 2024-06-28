@@ -2,11 +2,11 @@
 Turning Termux into a basic IDE for students that can't afford to buy laptops but still wants to code. 
 
 Edit Codes!
-[edit codes!](editwithneovim.gif)
+![edit codes!](editwithneovim.gif)
 
 
 Run and Compile!
-[run and compile!](run_program.gif.gif)
+![run and compile!](run_program.gif.gif)
 
 
 ## Why use this setup?
