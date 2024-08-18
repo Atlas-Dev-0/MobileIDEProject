@@ -52,7 +52,7 @@ $ apt install git
 
 4. Clone this repository
 ```
-$ apt install https://github.com/Atlas-Dev-0/MobileIDEProject.git
+$ git clone https://github.com/Atlas-Dev-0/MobileIDEProject.git
 ```
 
 5. Open the directory
